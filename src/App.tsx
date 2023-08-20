@@ -1,9 +1,12 @@
-
+import { BrowserRouter } from "react-router-dom";
+import { Router } from "./Router";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">Helllo world</h1>
-  )
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
