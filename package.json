@@ -2,7 +2,6 @@
   "name": "github-blog",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -22,6 +21,8 @@
     "react-router-dom": "^6.15.0"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",

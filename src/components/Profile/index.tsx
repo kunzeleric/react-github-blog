@@ -8,10 +8,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export const Profile = () => {
   return (
-    <div className="h-52 px-8 py-10 bg-base-profile flex items-center rounded-[10px] gap-8">
-      <div className="w-32 h-32 flex-1">
-        <img src="/src/assets/avatar.png" alt="" />
-      </div>
+    <div className="w-[864px] h-52 px-8 py-10 bg-base-profile flex items-center rounded-[10px] gap-8">
+    <img src="/src/assets/avatar.png" alt="" />
       <div className="flex flex-col gap-4">
         <div className="flex justify-between">
           <h1 className="text-base-title text-2xl font-bold">Cameron Williamson</h1>

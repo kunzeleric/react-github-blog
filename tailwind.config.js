@@ -22,6 +22,9 @@ export default {
       normal: "400",
       bold: "700",
     },
+    screens: {
+      'xl': '2000px',
+    },
     extend: {},
   },
   plugins: [],
