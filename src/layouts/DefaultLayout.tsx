@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom"
 
 export const DefaultLayout = () => {
   return (
-    <div className="bg-base-background h-screen">
+    <div className="bg-base-background min-h-screen">
       <Header />
       <Outlet />
     </div>

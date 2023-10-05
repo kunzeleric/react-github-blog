@@ -12,7 +12,13 @@ export const Home = () => {
       <Searchbar />
     </div>
     <div className="flex justify-center">
-      <div className="grid grid-cols-2 w-[864px] pt-6 gap-6">
+      <div className="grid grid-cols-2 w-[864px] py-6 gap-6">
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
         <Post />
         <Post />
         <Post />
